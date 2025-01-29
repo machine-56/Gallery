@@ -1,0 +1,43 @@
+@import url(./colour.css);
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 4rem 2rem;
+    border-radius: 15px;
+    background-color: var(--nav-bg-sm);
+    box-shadow: 0px 0px 10px var(--white-glow-soft);
+}
+.cont-form{
+    width: 100%;
+    input, textarea{
+        background-color: var(--nav-bg);
+    }
+    input:focus, textarea:focus{
+        background-color: var(--nav-bg);
+    }
+    .bttn{
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:768px){
+
+    .container{
+        width: 90%;
+        margin: 1rem;
+    }
+    .bttn{
+        button{
+            width: 100%;
+        }
+    }
+}

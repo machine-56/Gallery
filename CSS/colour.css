@@ -1,0 +1,31 @@
+:root{
+    /* Primary Colors */
+--primary-dark: #171214;      /* (Cod Gray) - Dark Background */
+--primary-light: #FAE1B5;     /* (Desert Sand) - Light Cream */
+
+/* Secondary Colors */
+--secondary-dark: #404A5C;    /* (River Bed) - Charcoal Blue */
+--secondary-light: #FCD66A;   /* (Sun Glow) - Vibrant Yellow */
+
+/* Tertiary Colors */
+--tertiary-1: #69B3AF;        /* (Tradewind) - Muted Teal */
+--tertiary-2: #5B7F9E;        /* (Horizon) - Dusty Blue */
+--tertiary-3: #B7888A;        /* (Rosewood) - Muted Pinkish Brown */
+--tertiary-4: #E0C124;        /* (Golden Flame) - Warm Gold */
+
+/* Accent Colors */
+--accent-1: #B93B34;          /* (Well Read) - Deep Red */
+--accent-2: #DCAD5C;          /* (Sunset Orange) - Warm Orange */
+--accent-3: #981912;          /* (Deep Crimson) - Dark Red */
+--accent-4: #4D6370;          /* (Blue Bayoux) - Steel Blue */
+
+/* Special Effects */
+--glow-effect: #DCAD5C;       /* (bright Glow) - Glow Effect */
+--white-glow: #ffffff;        /* (light Glow) - Glow Effect */
+--white-glow-soft: #ffffff5e;        /* (soft Glow) - Glow Effect */
+--under-line: #f7cf97;        /* (beige) - nav active */
+--nav-bg: #00000067;            /* (beige) - nav active */
+--nav-bg-sm: #00000096;            /* (beige) - nav active */
+
+/* --under-line: #fff0db;        (beige) - nav active */
+}
